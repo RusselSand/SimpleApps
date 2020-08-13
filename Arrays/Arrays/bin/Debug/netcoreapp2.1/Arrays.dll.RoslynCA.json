@@ -1,0 +1,608 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Компилятор Microsoft (R) Visual C#",
+        "version": "2.10.0.0",
+        "fileVersion": "2.10.0.0 (b9fb1610)",
+        "semanticVersion": "2.10.0",
+        "language": "ru-RU"
+      },
+      "results": [
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 11,
+                  "endLine": 7,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 32,
+                  "endLine": 15,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 21,
+                  "endLine": 79,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 25,
+                  "endLine": 115,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 25,
+                  "endLine": 116,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 21,
+                  "endLine": 153,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 21,
+                  "endLine": 154,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 21,
+                  "endLine": 155,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 21,
+                  "endLine": 156,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 21,
+                  "endLine": 9,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 13,
+                  "endLine": 20,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 17,
+                  "endLine": 31,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 13,
+                  "endLine": 44,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 17,
+                  "endLine": 46,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 21,
+                  "endLine": 48,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 17,
+                  "endLine": 76,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 17,
+                  "endLine": 82,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 17,
+                  "endLine": 83,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 13,
+                  "endLine": 100,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 34,
+                  "endLine": 100,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 17,
+                  "endLine": 107,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 21,
+                  "endLine": 111,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 17,
+                  "endLine": 146,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 13,
+                  "endLine": 163,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 13,
+                  "endLine": 170,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+3 (incl 2 for nesting)",
+              "15": "+1",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'numberMatrix'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 17,
+                  "endLine": 98,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'rowsMatrix1'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 17,
+                  "endLine": 127,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'columnsMatrix1'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/GitHub/SampleProjects/SimpleApps/Arrays/Arrays/Program.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 17,
+                  "endLine": 130,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1643": {
+          "id": "S1643",
+          "shortDescription": "Strings should not be concatenated using '+' in a loop",
+          "fullDescription": "StringBuilder is more efficient than string concatenation, especially when the operator is repeated over and over as in loops.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1643",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
