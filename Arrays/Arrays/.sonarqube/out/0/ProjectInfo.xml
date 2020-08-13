@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Arrays</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>00000000-0000-0000-0000-000000000000</ProjectGuid>
+  <FullPath>F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\Arrays.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\.sonarqube\out\0\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.dll.RoslynCA.json|F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\.sonarqube\out\0</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp2.1</TargetFramework>
+</ProjectInfo>

@@ -1,0 +1,11 @@
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.deps.json
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.runtimeconfig.json
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.runtimeconfig.dev.json
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.dll
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\bin\Debug\netcoreapp2.1\Arrays.pdb
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.csprojAssemblyReference.cache
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.csproj.CoreCompileInputs.cache
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.AssemblyInfoInputs.cache
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.AssemblyInfo.cs
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.dll
+F:\GitHub\SampleProjects\SimpleApps\Arrays\Arrays\obj\Debug\netcoreapp2.1\Arrays.pdb
