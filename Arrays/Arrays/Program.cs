@@ -84,7 +84,163 @@ namespace Arrays
                 Console.WriteLine(line);
                 element++;
             }
-            Console.ReadKey();   
+            Console.ReadKey();
+            Console.WriteLine();
+
+            //Matrix/number multiplication
+            Console.WriteLine("Enter number of rows: ");
+            int rowsMatrix = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number of columns: ");
+            int columnsMatrix = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number for multiplication: ");
+            int numberMatrix = int.Parse(Console.ReadLine());
+
+            if((rowsMatrix == 0) || (columnsMatrix == 0)) Console.WriteLine("We cant create this matrix, sorry :(");
+
+            else
+            {
+                int[,] matrix = new int[rowsMatrix, columnsMatrix];
+                int[,] resultMatrix = new int[rowsMatrix, columnsMatrix];
+
+                for (int i = 0; i < rowsMatrix;i++)
+                {
+                    string lineMatrix = "";
+                    string lineResult = "";
+                    for (int j = 0; j < columnsMatrix; j++)
+                    {
+                        matrix[i, j] = randomize.Next(1, 100);
+                        resultMatrix[i, j] = matrix[i, j] * 5;
+                        lineMatrix += matrix[i, j].ToString().PadLeft(4);
+                        lineResult += resultMatrix[i, j].ToString().PadLeft(4);
+                    }
+                    Console.WriteLine($"| {lineMatrix} | {lineResult} |");
+                }
+            }
+
+            Console.ReadKey();
+            Console.WriteLine();
+
+            //Matrix sum and difference
+            Console.WriteLine("Enter number of rows: ");
+            int rowsMatrix1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number of columns: ");
+            int columnsMatrix1 = int.Parse(Console.ReadLine());
+
+            int[,] matrix1 = new int[rowsMatrix, columnsMatrix];
+            int[,] matrix2 = new int[rowsMatrix, columnsMatrix];
+            int[,] result1 = new int[rowsMatrix, columnsMatrix];
+            int[,] result2 = new int[rowsMatrix, columnsMatrix];
+
+            string[] print1 = new string[rowsMatrix];
+            string[] print2 = new string[rowsMatrix];
+
+            for (int i = 0; i < rowsMatrix; i++)
+            {
+                string lineMatrix1 = "";
+                string lineMatrix2 = "";
+                string lineResult1 = "";
+                string lineResult2 = "";
+
+                for (int j = 0; j < columnsMatrix; j++)
+                {
+                    matrix1[i, j] = randomize.Next(1, 100);
+                    matrix2[i, j] = randomize.Next(1, 100);
+                    result1[i, j] = matrix1[i, j] + matrix2[i, j];
+                    result2[i, j] = matrix1[i, j] - matrix2[i, j];
+
+                    lineMatrix1 += matrix1[i, j].ToString().PadLeft(4);
+                    lineMatrix2 += matrix2[i, j].ToString().PadLeft(4);
+                    lineResult1 += result1[i, j].ToString().PadLeft(4);
+                    lineResult2 += result2[i, j].ToString().PadLeft(4);
+                }
+                print1[i] = $"| {lineMatrix1} | {lineMatrix2} | {lineResult1} |";
+                print2[i] = $"| {lineMatrix1} | {lineMatrix2} | {lineResult2} |";
+            }
+
+            Console.WriteLine("Sum: ");
+            foreach (var item in print1)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Difference: ");
+            foreach (var item in print2)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadKey();
+            Console.WriteLine();
+
+            //Matrix multiplication
+
+            Console.WriteLine("Enter number of rows for 1 matrix: ");
+            int rowsFirstMatrix = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number of columns for 1 matrix: ");
+            int columnsFirstMatrix = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number of rows for 2 matrix: ");
+            int rowsSecondMatrix = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter number of columns for 2 matrix: ");
+            int columnsSecondMatrix = int.Parse(Console.ReadLine());
+
+            if (columnsFirstMatrix != rowsSecondMatrix)
+            {
+                Console.WriteLine("We can`t multiply those matrix");
+            }
+            else
+            {
+                int[,] multiplyResult = new int[rowsFirstMatrix, columnsSecondMatrix];
+                int[,] matrixFirst = new int[rowsFirstMatrix, columnsFirstMatrix];
+                int[,] matrixSecond = new int[rowsSecondMatrix, columnsSecondMatrix];
+
+                for (int i = 0; i < rowsFirstMatrix; i++)
+                {
+                    string LineResult = ""; 
+                    for(int j = 0; j < columnsSecondMatrix; j++)
+                    {
+                        multiplyResult[i, j] = 0;
+
+                        for (int k = 0; k < columnsFirstMatrix; k++)
+                        {
+                            matrixFirst[i, k] = randomize.Next(1, 10);
+                            matrixSecond[k, j] = randomize.Next(1, 10);
+                            multiplyResult[i, j] += matrixFirst[i, k] * matrixSecond[k, j];
+
+                        }
+                        LineResult += multiplyResult[i, j].ToString().PadLeft(4);
+                    }
+                    Console.WriteLine($"| {LineResult} |");
+                }
+                Console.WriteLine();
+                Console.WriteLine("First matrix: ");
+                for (int i = 0; i < rowsFirstMatrix; i++)
+                {
+                    string lineMatrixFirst = "";
+                    for (int j = 0; j < columnsFirstMatrix; j++)
+                    {
+                        lineMatrixFirst += matrixFirst[i, j].ToString().PadLeft(4);
+                    }
+                    Console.WriteLine($"| {lineMatrixFirst} |");
+                }
+                Console.WriteLine();
+                Console.WriteLine("Second matrix: ");
+                for (int i = 0; i < rowsSecondMatrix; i++)
+                {
+                    string lineMatrixSecond = "";
+                    for (int j = 0; j < columnsSecondMatrix; j++)
+                    {
+                        lineMatrixSecond += matrixSecond[i, j].ToString().PadLeft(4);
+                    }
+                    Console.WriteLine($"| {lineMatrixSecond} |");
+                }
+            }
+            Console.ReadLine();    
         }
     }
 }
