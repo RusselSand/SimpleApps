@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
-      "projectName": "Arrays",
-      "projectPath": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Loops\\Loops.csproj",
+      "projectName": "Loops",
+      "projectPath": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Loops\\Loops.csproj",
       "packagesPath": "C:\\Users\\Russel\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Arrays\\Arrays\\obj\\",
+      "outputPath": "F:\\GitHub\\SampleProjects\\Ne\\SimpleApps\\Loops\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

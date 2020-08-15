@@ -1,0 +1,11 @@
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\bin\Debug\netcoreapp2.1\Loops.deps.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\bin\Debug\netcoreapp2.1\Loops.runtimeconfig.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\bin\Debug\netcoreapp2.1\Loops.runtimeconfig.dev.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\bin\Debug\netcoreapp2.1\Loops.dll
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\bin\Debug\netcoreapp2.1\Loops.pdb
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.csprojAssemblyReference.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.csproj.CoreCompileInputs.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.AssemblyInfoInputs.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.AssemblyInfo.cs
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.dll
+F:\GitHub\SampleProjects\Ne\SimpleApps\Loops\obj\Debug\netcoreapp2.1\Loops.pdb

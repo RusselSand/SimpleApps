@@ -1,0 +1,11 @@
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\bin\Debug\netcoreapp2.1\BasicFunctions.deps.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\bin\Debug\netcoreapp2.1\BasicFunctions.runtimeconfig.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\bin\Debug\netcoreapp2.1\BasicFunctions.runtimeconfig.dev.json
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\bin\Debug\netcoreapp2.1\BasicFunctions.dll
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\bin\Debug\netcoreapp2.1\BasicFunctions.pdb
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.csprojAssemblyReference.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.csproj.CoreCompileInputs.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.AssemblyInfoInputs.cache
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.AssemblyInfo.cs
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.dll
+F:\GitHub\SampleProjects\Ne\SimpleApps\BasicFunctions\obj\Debug\netcoreapp2.1\BasicFunctions.pdb
