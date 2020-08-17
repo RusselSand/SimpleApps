@@ -27,8 +27,22 @@ namespace Loops
             }
             while ((playersNumber != 1) && (playersNumber != 2));
 
-
             Console.WriteLine("Start");
+            Random randomize = new Random();
+            int gameNumber = randomize.Next(12, 120);
+            string name1;
+            string name2;
+
+            if(playersNumber == 1)
+            {
+                name1 = Console.ReadLine();
+            }
+
+            else
+            {
+                name1 = Console.ReadLine();
+                name2 = Console.ReadLine();
+            }
             Console.ReadLine();
 
             // Написать игру, в которою могут играть два игрока.
