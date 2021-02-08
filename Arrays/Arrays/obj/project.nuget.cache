@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "558tvpJxswwx8kL0TOOkDVwOHnCvHGgKoonkO0Ih95UokcZutYxdb4XQGHHLuW2NNJ/+1D03Xq0tXMVvmyj/sw==",
+  "dgSpecHash": "O+wopshboaoGCHb3w5MvwyY6VFvdthVyAiaSZBm5WmVD4EyzWUVHxV8fZJ10+5oJLrHOS3wevJ7RYzlNp2j98A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sand1\\Source\\Repos\\RusselSand\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
+  "projectFilePath": "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sand1\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\sand1\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
