@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj": {}
+    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Loops\\Loops.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj": {
+    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Loops\\Loops.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
-        "projectName": "Arrays",
-        "projectPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Arrays\\Arrays.csproj",
+        "projectUniqueName": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Loops\\Loops.csproj",
+        "projectName": "Loops",
+        "projectPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Loops\\Loops.csproj",
         "packagesPath": "C:\\Users\\sand1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Arrays\\obj\\",
+        "outputPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Loops\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
-            "targetAlias": "netcoreapp2.1",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,16 +41,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -61,6 +53,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }

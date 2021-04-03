@@ -10,3 +10,16 @@ C:\Users\sand1\source\repos\RusselSand\SimpleApps\Arrays\Variables\obj\Debug\net
 C:\Users\sand1\source\repos\RusselSand\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.dll
 C:\Users\sand1\source\repos\RusselSand\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.pdb
 C:\Users\sand1\source\repos\RusselSand\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.genruntimeconfig.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.exe
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.deps.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.dev.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\bin\Debug\netcoreapp3.1\Variables.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.csprojAssemblyReference.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfoInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfo.cs
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.csproj.CoreCompileInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Variables\obj\Debug\netcoreapp3.1\Variables.genruntimeconfig.cache

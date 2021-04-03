@@ -1,0 +1,13 @@
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.exe
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.deps.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.runtimeconfig.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.runtimeconfig.dev.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\bin\Debug\netcoreapp3.1\Loops.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.csprojAssemblyReference.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.AssemblyInfoInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.AssemblyInfo.cs
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.csproj.CoreCompileInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Loops\obj\Debug\netcoreapp3.1\Loops.genruntimeconfig.cache

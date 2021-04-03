@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Variables\\Variables.csproj": {}
+    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Variables\\Variables.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Variables\\Variables.csproj": {
+    "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Variables\\Variables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Variables\\Variables.csproj",
+        "projectUniqueName": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Variables\\Variables.csproj",
         "projectName": "Variables",
-        "projectPath": "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Variables\\Variables.csproj",
+        "projectPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Variables\\Variables.csproj",
         "packagesPath": "C:\\Users\\sand1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sand1\\source\\repos\\RusselSand\\SimpleApps\\Arrays\\Variables\\obj\\",
+        "outputPath": "C:\\Users\\sand1\\OneDrive\\диссертация\\Документы\\GitHub\\SimpleApps\\Arrays\\Variables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\sand1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
