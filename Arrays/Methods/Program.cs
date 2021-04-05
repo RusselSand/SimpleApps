@@ -1,11 +1,27 @@
-﻿using System;
+﻿using System.Data;
+using System;
 
 namespace Methods
 {
     class Program
     {
+        public static bool BracketCheck(string mathString)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                var result = dt.Compute(mathString, "");
+                return true;
+            }
+            catch (SyntaxErrorException)
+            {
+                return false;
+            } 
+        }
         static void Main(string[] args)
         {
+            bool x = BracketCheck("1+2*(3+4+5");
+            Console.WriteLine(x);
             // Домашнее задание
             // Требуется написать несколько методов
             //
