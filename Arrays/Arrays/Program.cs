@@ -118,6 +118,7 @@ namespace Arrays
                     Console.WriteLine($"| {lineMatrix} | {lineResult} |");
                 }
             }
+          
 
             Console.ReadKey();
             Console.WriteLine();
@@ -204,7 +205,7 @@ namespace Arrays
                     string LineResult = ""; 
                     for(int j = 0; j < columnsSecondMatrix; j++)
                     {
-                        multiplyResult[i, j] = 0;
+                       // multiplyResult[i, j] = 0;
 
                         for (int k = 0; k < columnsFirstMatrix; k++)
                         {
