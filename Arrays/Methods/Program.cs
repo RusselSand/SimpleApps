@@ -109,6 +109,11 @@ namespace Methods
             }
             return matrix;
         }
+        /// <summary>
+        /// Method to get word with max quantity of letters
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public static string MaxLetters(string text)
         {
             string[] words = text.Split(' ');
@@ -125,6 +130,11 @@ namespace Methods
 
             return String.Join(", ",result);
         }
+        /// <summary>
+        /// Method to get word with min quantity of letters
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public static string MinLetters(string text)
         {
             string[] words = text.Split(' ');
@@ -141,6 +151,11 @@ namespace Methods
             }
             return String.Join(", ", result);
         }
+        /// <summary>
+        /// Method to delete dublicate chars from text
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public static string DeleteDuplicates(string text)
         {
             string result = "";
@@ -156,38 +171,57 @@ namespace Methods
             }
             return result;
         }
+        /// <summary>
+        /// Method to check if array is geometric or arithmetic progression
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         public static string CheckProgression(int firstNumber, params int[] numbers)
         {
             string result = "";
+            int checkArifm = 0;
+            int checkGeom = 0;
             for (int i = 1; i <= numbers[0]; i++)
             {
                 int startNumber = firstNumber;
+                checkArifm = 0;
+                checkGeom = 0;
                 foreach(int number in numbers)
                 {
-                    if(startNumber * i == number)
+                    if(startNumber * i != number)
                     {
-                        result = "Геометрическая прогрессия.";
+                        checkGeom++;
                     }
-                    else
+                    if(startNumber + i != number)
                     {
-                        result = "Просто числа.";
-                        break;
+                        checkArifm++;
                     }
+                    startNumber = number;
                 }
-                foreach (int number in numbers)
-                {
-                    if (startNumber + i == number)
-                    {
-                        result = "Арифметическая прогрессия.";
-                    }
-                    else
-                    {
-                        result = "Просто числа.";
-                        break;
-                    }
+                if (checkArifm == 0 || checkGeom == 0){
+                    break;
                 }
             }
+            if (checkArifm == 0){ result = "This is arithmetic progression."; }
+            else if(checkGeom == 0) { result = "This is geometric progression."; }
+            else { result = "Just numbers."; }
             return result;
+        }
+        public static int Akkerman(int n, int m)
+        {
+            if(n == 0)
+            {
+                return m + 1;
+            }
+            else if (n != 0 && m == 0)
+            {
+                return Akkerman(n - 1, 1);
+            }
+            else
+            {
+                return Akkerman(n - 1, Akkerman(n, m - 1));
+            }
         }
         static void Main(string[] args)
         {
@@ -207,21 +241,12 @@ namespace Methods
             Console.WriteLine(DeleteDuplicates("Ххххоооорррооошшшиий деееннннь"));
             Console.ReadKey();
             Console.WriteLine(CheckProgression(1,2,4,8,16));
-            // Задание 4. Написать метод принимающий некоторое количесво чисел, выяснить
-            // является заданная последовательность элементами арифметической или геометрической прогрессии
-            // 
-            // Примечание
-            //             http://ru.wikipedia.org/wiki/Арифметическая_прогрессия
-            //             http://ru.wikipedia.org/wiki/Геометрическая_прогрессия
-            //
-            // *Задание 5
-            // Вычислить, используя рекурсию, функцию Аккермана:
-            // A(2, 5), A(1, 2)
-            // A(n, m) = m + 1, если n = 0,
-            //         = A(n - 1, 1), если n <> 0, m = 0,
-            //         = A(n - 1, A(n, m - 1)), если n> 0, m > 0.
-            // 
-            // Весь код должен быть откоммментирован
+            Console.ReadKey();
+            Console.WriteLine(Akkerman(1, 2));
+            Console.WriteLine(Akkerman(2, 3));
+            Console.WriteLine(Akkerman(3, 4));
+            Console.ReadKey();
+
         }
     }
 }
