@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{CD0EE22A-EA2B-4341-88F2-68174A19FDB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{F43B4AA7-44E5-424C-B1A9-FAC0C07B153E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{F43B4AA7-44E5-424C-B1A9-FAC0C07B153E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{DFEFA480-A3A5-4831-B037-7A80E5FAF1C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F43B4AA7-44E5-424C-B1A9-FAC0C07B153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F43B4AA7-44E5-424C-B1A9-FAC0C07B153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F43B4AA7-44E5-424C-B1A9-FAC0C07B153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEFA480-A3A5-4831-B037-7A80E5FAF1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEFA480-A3A5-4831-B037-7A80E5FAF1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEFA480-A3A5-4831-B037-7A80E5FAF1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEFA480-A3A5-4831-B037-7A80E5FAF1C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
