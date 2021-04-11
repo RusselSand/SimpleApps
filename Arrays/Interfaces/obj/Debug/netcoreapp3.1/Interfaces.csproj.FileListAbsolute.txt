@@ -1,0 +1,13 @@
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.exe
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.dev.json
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\sand1\OneDrive\диссертация\Документы\GitHub\SimpleApps\Arrays\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.genruntimeconfig.cache
